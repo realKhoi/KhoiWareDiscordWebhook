@@ -2,6 +2,7 @@
 STATUS_FILE="/opt/automation/discordWatchdog/status.txt"
 
 source /opt/automation/discordWatchdog/.env
+export WEBHOOK_URL
 
 declare -A HOSTS=(
     ["100.70.211.32"]="Manager"
