@@ -1,6 +1,8 @@
 #!/bin/bash
 STATUS_FILE="/opt/automation/discordWatchdog/status.txt"
 
+source /opt/automation/discordWatchdog/.env
+
 declare -A HOSTS=(
     ["100.70.211.32"]="Manager"
     ["100.75.86.71"]="Server1"
