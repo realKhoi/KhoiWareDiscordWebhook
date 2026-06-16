@@ -1,3 +1,8 @@
+import requests
+import os
+import sys
+from datetime import datetime, timezone
+
 ip = sys.argv[1]
 name = sys.argv[2]
 status = sys.argv[3]

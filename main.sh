@@ -1,9 +1,4 @@
 #!/bin/bash
-import requests
-import os
-import sys
-from datetime import datetime, timezone
-
 STATUS_FILE="/opt/automation/discordWatchdog/status.txt"
 
 declare -A HOSTS=(
